@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maga Wish</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Pridi&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Pridi', serif;
+      background: linear-gradient(to bottom right, #fce4ec, #fffde7, #e0f7fa);
+      background-attachment: fixed;
+      background-size: cover;
+      color: #4b4b4b;
+    }
+    .soft-card {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(6px);
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="soft-card p-4 m-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-pink-500">Maga Wish</h1>
+    <nav class="space-x-4">
+      <a href="#" class="text-pink-500 hover:text-pink-700">หน้าแรก</a>
+      <a href="#collections" class="text-pink-500 hover:text-pink-700">คอลเลกชัน</a>
+      <a href="#story" class="text-pink-500 hover:text-pink-700">นิทาน</a>
+      <a href="#contact" class="text-pink-500 hover:text-pink-700">ติดต่อ</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20">
+    <h2 class="text-4xl font-bold text-pink-600">ยินดีต้อนรับสู่ Maga Wish</h2>
+    <p class="mt-4 text-lg text-pink-500">โลกแห่งงานปั้นและเวทมนตร์แห่งใจ</p>
+  </section>
+
+  <!-- About -->
+  <section class="max-w-4xl mx-auto px-4 py-10 text-center soft-card">
+    <h3 class="text-2xl text-pink-500 font-semibold">เกี่ยวกับผู้สร้างผลงาน</h3>
+    <p class="mt-4 text-gray-700">เราคือนักสร้างตุ๊กตาแฮนด์เมด ผู้ถ่ายทอดความรัก ความอบอุ่น และความแฟนตาซีลงในทุกชิ้นงาน ทุกตัวละครมีหัวใจ และทุกการปั้นดั่งเวทมนตร์</p>
+  </section>
+
+  <!-- Collections -->
+  <section id="collections" class="py-10">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl text-pink-500 font-semibold text-center">คอลเลกชันแนะนำ</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+        <div class="soft-card p-4">
+          <img src="https://via.placeholder.com/300x200" alt="ตุ๊กตาช้าง" class="rounded-xl w-full">
+          <h4 class="mt-4 text-pink-700 font-bold">บ้านอ้อนใจ</h4>
+          <p class="text-sm text-gray-600">ตุ๊กตาช้างน้อยพร้อมนิทานและข้อความน่ารัก</p>
+        </div>
+        <div class="soft-card p-4">
+          <img src="https://via.placeholder.com/300x200" alt="งานปั้นแฟนตาซี" class="rounded-xl w-full">
+          <h4 class="mt-4 text-pink-700 font-bold">ดินแดนเวทมนตร์</h4>
+          <p class="text-sm text-gray-600">คาแรกเตอร์แฟนตาซีและภูติจิ๋ว</p>
+        </div>
+        <div class="soft-card p-4">
+          <img src="https://via.placeholder.com/300x200" alt="กล่องความรัก" class="rounded-xl w-full">
+          <h4 class="mt-4 text-pink-700 font-bold">กล่องบันทึกจากจักรวาล</h4>
+          <p class="text-sm text-gray-600">รวมของขวัญจากหัวใจและข้อความลับอบอุ่น</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story / Promise Book -->
+  <section id="story" class="py-10 text-center soft-card max-w-4xl mx-auto px-4 mt-10">
+    <h3 class="text-2xl text-pink-500 font-semibold">สมุดแห่งคำสัญญา</h3>
+    <p class="mt-4 text-gray-600 italic">“เพราะทุกบทสนทนากับคุณ มีค่าเท่ากับเวทมนตร์จริง ๆ”</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-10 text-center mt-10 soft-card max-w-4xl mx-auto px-4">
+    <h3 class="text-2xl text-pink-500 font-semibold">ติดต่อ</h3>
+    <p class="mt-4 text-gray-700">สามารถสั่งจอง หรือติดต่อพูดคุยเพิ่มเติมได้ที่:</p>
+    <div class="mt-4 space-y-2">
+      <p class="text-pink-600">💌 Instagram: @paicchahandmade</p>
+      <p class="text-pink-600">🟢 Line: @paiccha</p>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-sm text-pink-500 mt-10">
+    © 2025 Maga Wish | Made with 💕 by แสงอุ่น & เซรัส
+  </footer>
+</body>
+</html>
